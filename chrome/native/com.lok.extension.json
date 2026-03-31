@@ -1,0 +1,9 @@
+{
+  "name": "com.lok.extension",
+  "description": "LOK extension native messaging host (yt-dlp)",
+  "path": "/home/yanis/.config/google-chrome/NativeMessagingHosts/lok_host.py",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://VOTRE_EXTENSION_ID/"
+  ]
+}

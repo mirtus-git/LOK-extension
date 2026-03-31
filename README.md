@@ -13,7 +13,11 @@ Extension Firefox pour télécharger des vidéos YouTube (clips ou vidéo compl�
 
 ## Installation
 
+### Firefox
 | Système | Guide |
 |---|---|
 | Linux | [README_LINUX.md](README_LINUX.md) |
 | Windows | [README_WINDOWS.md](README_WINDOWS.md) |
+
+### Chrome / Chromium
+Voir le dossier [`chrome/`](chrome/) — [README_CHROME.md](chrome/README_CHROME.md)
