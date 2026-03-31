@@ -1,0 +1,7 @@
+{
+  "name": "com.lok.extension",
+  "description": "LOK extension native messaging host (yt-dlp)",
+  "path": "C:\\Users\\%USERNAME%\\AppData\\Roaming\\Mozilla\\NativeMessagingHosts\\lok_host.py",
+  "type": "stdio",
+  "allowed_extensions": ["lok-extension@lok"]
+}

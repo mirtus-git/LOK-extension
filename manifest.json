@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "name": "LOK extension",
+  "version": "1.0.0",
+  "description": "Téléchargement et clip de vidéos YouTube",
+  "icons": {
+    "48": "icons/icon-48.svg",
+    "96": "icons/icon-96.svg"
+  },
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "48": "icons/icon-48.svg"
+    },
+    "default_title": "LOK extension"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "clipboardWrite",
+    "nativeMessaging",
+    "storage",
+    "notifications",
+    "contextMenus"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "lok-extension@lok",
+      "strict_min_version": "91.0"
+    }
+  }
+}
